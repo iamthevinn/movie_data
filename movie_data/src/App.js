@@ -5,7 +5,7 @@ import './App.css';
 const Year = (props) => {
   return (
           <div>
-            <div style={{float: 'left'}}>Year:&nbsp;</div>
+            <div style={{float: 'left', fontWeight: 'bold'}}>Year:&nbsp;</div>
             <div>
               {props.year}
             </div>
@@ -16,7 +16,7 @@ const Year = (props) => {
 const Director = (props) => {
   return (
           <div>
-          <div style={{float: 'left'}}>Director:&nbsp;</div>
+          <div style={{float: 'left', fontWeight: 'bold'}}>Director:&nbsp;</div>
           <div>
           {props.director}
           </div>
@@ -27,7 +27,7 @@ const Director = (props) => {
 const Plot = (props) => {
   return (
           <div>
-          <div style={{float: 'left'}}>Plot:&nbsp;</div>
+          <div style={{float: 'left', fontWeight: 'bold'}}>Plot:&nbsp;</div>
           <div>
           {props.plot}
           </div>
